@@ -1,20 +1,11 @@
-package com.learning;
+package com.learning.Task;
 
 import java.util.concurrent.TimeUnit;
 
-public class SecondTechnique {
-
-    public static void main(String[] args) {
-        System.out.println("Main thread starts...");
-        new SecondTask();
-        new SecondTask();
-        System.out.println("... Main thread ends");
-    }
-}
-
-class SecondTask implements Runnable {
+public class FirstTask extends Thread {
     private static int count = 0;
     private int id;
+
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
@@ -27,8 +18,8 @@ class SecondTask implements Runnable {
         }
     }
 
-    public SecondTask() {
+    public FirstTask() {
         this.id = ++count;
-        new Thread(this).start();
+        this.start();
     }
 }
