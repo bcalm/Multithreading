@@ -1,6 +1,6 @@
 package com.learning.ExecutorFrameworks;
 
-import com.learning.Task.LoopTaskA;
+import com.learning.Task.LoopTask.LoopTaskA;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

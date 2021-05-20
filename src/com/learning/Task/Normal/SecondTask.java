@@ -1,4 +1,4 @@
-package com.learning.Task;
+package com.learning.Task.Normal;
 
 import java.util.concurrent.TimeUnit;
 

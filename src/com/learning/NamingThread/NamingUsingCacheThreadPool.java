@@ -1,7 +1,6 @@
 package com.learning.NamingThread;
 
-import com.learning.Task.LoopTaskA;
-import com.learning.Task.LoopTaskB;
+import com.learning.Task.LoopTask.LoopTaskB;
 import com.learning.ThreadFactory.NamedThreadFactory;
 
 import java.util.concurrent.ExecutorService;

@@ -1,4 +1,4 @@
-package com.learning.Task;
+package com.learning.Task.LoopTask;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;

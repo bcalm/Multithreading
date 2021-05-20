@@ -1,6 +1,6 @@
 package com.learning.ThreadCreationTechnique;
 
-import com.learning.Task.FirstTask;
+import com.learning.Task.Normal.FirstTask;
 
 public class FirstTechniqure {
 
